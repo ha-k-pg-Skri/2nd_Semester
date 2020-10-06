@@ -7,5 +7,6 @@
   <ItemGroup>
     <ClInclude Include="Comon.h" />
     <ClInclude Include="Unit.h" />
+    <ClInclude Include="Definition.h" />
   </ItemGroup>
 </Project>

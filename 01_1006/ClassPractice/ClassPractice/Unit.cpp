@@ -1,18 +1,21 @@
 #include"Comon.h"
 #include"Unit.h"
 
+#include"Definition.h"
+
+
 
 
 Unit::Unit()
 {
-	m_hp = 0;
-	m_str = 0;
-	m_mag = 0;
-	m_tec = 0;
-	m_spd = 0;
-	m_def = 0;
-	m_luc = 0;
-	m_mde = 0;
+	m_stataus._hp = 0;
+	m_stataus._str = 0;
+	m_stataus._mag = 0;
+	m_stataus._tec = 0;
+	m_stataus._spd = 0;
+	m_stataus._def = 0;
+	m_stataus._luc = 0;
+	m_stataus._mde = 0;
 
 }
 Unit::~Unit()
@@ -30,17 +33,15 @@ Unit::~Unit()
 void Unit::printStatus()
 {
 
-
-
-	
-
-	printf("m_hp =%d\n",m_hp);
-	printf("str =%d\n", m_str);
-	printf("mag =%d\n", m_mag);
-	printf("tec =%d\n", m_tec);
-	printf("spd =%d\n", m_spd);
-	printf("def =%d\n", m_def);
-	printf("luc =%d\n", m_luc);
-	printf("mde =%d\n", m_mde);
+	printf("m_hp =%d\n",m_stataus._hp);
+	printf("str =%d\n", m_stataus._str);
+	printf("mag =%d\n", m_stataus._mag);
+	printf("tec =%d\n", m_stataus._tec);
+	printf("spd =%d\n", m_stataus._spd);
+	printf("def =%d\n", m_stataus._def);
+	printf("luc =%d\n", m_stataus._luc);
+	printf("mde =%d\n", m_stataus._mde);
 
 }
+
+
