@@ -2,8 +2,11 @@
 #ifndef UNIT_H
 #define UNIT_H
 
-class Unit
 
+
+
+
+class Unit
 {
 
 public:
@@ -14,21 +17,21 @@ public:
 	//デストラクタ
 	~Unit();
 
-	int m_hp;
-	int m_str;
-	int m_mag;
-	int m_tec;
-	int m_spd;
-	int m_def;
-	int m_luc;
-	int m_mde;
 
+void printStatus();
 
-
-
-
+private:
+		int m_hp;
+		int m_str;
+		int m_mag;
+		int m_tec;
+		int m_spd;
+		int m_def;
+		int m_luc;
+		int m_mde;
+	
+	
 };
-
 
 
 #endif 
