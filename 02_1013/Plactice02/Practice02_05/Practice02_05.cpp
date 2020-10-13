@@ -8,9 +8,11 @@ int main()
 
 	Player player;
 	player.SetMoveSpeed(5.0f);
+	player.SetHp(200);
 
 	Enemy enemy;
 	enemy.SetHp(100);
+
 
 	printf("----------------\n");
 	printf("PRACTICE02_04\n");
