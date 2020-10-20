@@ -20,12 +20,12 @@ Enemy::~Enemy()
 void Enemy::Exec()
 {
 
-
+	printf("Enemy‚ÌExcc\n");
 }
 
 void Enemy::Draw()
 {
-
+	printf("Enemy‚ÌDraw\n");
 
 }
 

@@ -6,8 +6,14 @@ class Base
 {
 public:
 	Base();
-	virtual ~Base();
+    ~Base();
 public:
+
+public:
+	//継承先で、それぞれ処理の違うことがわかっている関数を
+	//純粋仮想関数として基底クラスに宣言
+	virtual void Exec() = 0;
+	virtual void Draw() = 0;
 
 	//引数の矩形情報と、自分が当たっているかを判定
 virtual bool CheckHit(int x,int y,int width,int hegight);
