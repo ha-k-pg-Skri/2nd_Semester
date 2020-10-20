@@ -38,6 +38,17 @@ int main()
 
 	printf("\n");
 
+	if (player.CheckHit(10, 10, 20, 30) == false)
+	{
+		printf("当たっていません\n");
+
+	}
+	if (enemy.CheckHit(10, 10, 20, 30) == false)
+	{
+		printf("当たっていません\n");
+
+	}
+
 
 
 

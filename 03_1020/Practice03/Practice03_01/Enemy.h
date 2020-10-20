@@ -11,6 +11,8 @@ public:
 public:
 	void Exec();
 	void Draw();
+	virtual bool CheckHit(int x, int y, int width, int hegight);
+
 
 
 

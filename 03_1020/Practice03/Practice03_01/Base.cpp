@@ -1,4 +1,5 @@
 #include"Base.h"
+#include<stdio.h>
 
 Base::Base()
 {
@@ -13,8 +14,11 @@ Base::~Base()
 
 }
 
-bool Base::CheckHit(int x, int y, int z, int width, int hegight)
+bool Base::CheckHit(int x, int y, int width, int hegight)
 {
+
+	printf("BaseƒNƒ‰ƒX‚ÌCheckHit()\n");
+
 	return false;
 
 }
@@ -59,19 +63,22 @@ float Base::GetPosY()
 
 }
 
-float Base::SetSize(int m_Width, int m_Height)
+float Base::SetSize(int Width, int Height)
 {
+	Width = m_Width;
+	Height = m_Height;
 
-
+	return Width;
+	return Height;
 }
 
 float Base::GetWidth()
 {
-
+	return m_Width;
 
 }
 
 float Base::GetHeight()
 {
-
+	return m_Height;
 }

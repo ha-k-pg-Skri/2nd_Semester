@@ -10,7 +10,7 @@ public:
 public:
 
 	//ˆø”‚Ì‹éŒ`î•ñ‚ÆA©•ª‚ª“–‚½‚Á‚Ä‚¢‚é‚©‚ğ”»’è
-virtual bool CheckHit(int x,int y,int z,int width,int hegight);
+virtual bool CheckHit(int x,int y,int width,int hegight);
 
 
 public:
@@ -23,7 +23,7 @@ public:
 	float GetPosY();
 	float GetMoveSpeed();
 
-	float SetSize(int m_Width,int m_Height);
+	float SetSize(int Width,int Height);
 	float GetWidth();
 	float GetHeight();
 
