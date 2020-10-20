@@ -7,7 +7,7 @@ class Enemy :public Base
 {
 public:
 	Enemy();
-	~Enemy();
+	 virtual ~Enemy();
 public:
 	void Exec();
 	void Draw();
