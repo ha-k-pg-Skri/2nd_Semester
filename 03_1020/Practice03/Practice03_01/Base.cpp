@@ -13,6 +13,11 @@ Base::~Base()
 
 }
 
+bool Base::CheckHit(int x, int y, int z, int width, int hegight)
+{
+	return false;
+
+}
 
 void Base::SetHp(int hp)
 {
@@ -51,5 +56,22 @@ float Base::GetPosX()
 float Base::GetPosY()
 {
 	return m_PosY;
+
+}
+
+float Base::SetSize(int m_Width, int m_Height)
+{
+
+
+}
+
+float Base::GetWidth()
+{
+
+
+}
+
+float Base::GetHeight()
+{
 
 }
