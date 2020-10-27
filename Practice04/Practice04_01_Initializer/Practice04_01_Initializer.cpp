@@ -42,9 +42,28 @@ void  CharaBase::PrintParam()
     printf("HP_MAXp =%d\n", HP_MAX);
 }
 
+class Player :public CharaBase
+{
+public:
+    Player();
+
+private:
+    int Money;
+};
+
+Player::Player()
+
+:Money(50)
+,CharaBase()
+{
+
+}
 
 int main()
 {
+    int value(10);
+    float f_value(10.0f);
+
     CharaBase ch;
     ch.PrintParam();
 }
