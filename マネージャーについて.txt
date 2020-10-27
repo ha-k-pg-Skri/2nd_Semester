@@ -1,0 +1,8 @@
+管理の考え方　Maneger
+
+TexturManager 絵
+SoundManager 音
+ObjectManager 画面に出て動くもの
+EnemyManager
+
+HudManager(UI) 
