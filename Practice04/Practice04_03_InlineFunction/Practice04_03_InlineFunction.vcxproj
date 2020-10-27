@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{06dd3a55-bf59-4606-9372-f98ae3649483}</ProjectGuid>
-    <RootNamespace>Practice0402</RootNamespace>
+    <ProjectGuid>{4334a0fa-8c11-472d-bf5a-e477d9308262}</ProjectGuid>
+    <RootNamespace>Practice0403InlineFunction</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Practice04_02_DefaultArgument</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Practice04_02_DefaultArgument.cpp" />
+    <ClCompile Include="Practice04_03_InlineFunction.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

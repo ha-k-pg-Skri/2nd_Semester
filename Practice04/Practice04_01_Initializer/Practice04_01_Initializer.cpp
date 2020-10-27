@@ -5,7 +5,7 @@ class CharaBase
 {
 public:
     CharaBase();
-    ~CharaBase();
+   virtual ~CharaBase();
 
     void PrintParam();
 

@@ -27,6 +27,7 @@ int main()
 {
     Calculator calc;
     std::cout << calc.add(10, 20) << std::endl;
+    std::cout << calc.add(10, 20) << std::endl;
 
 }
 
