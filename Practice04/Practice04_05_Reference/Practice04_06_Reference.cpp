@@ -8,6 +8,15 @@ void Init(int& rhp, int& rmp)
     rmp = 10;
 }
 
+//const 
+void Print(const int& rhp, const int& rmp)
+{
+   // rhp = 50;
+    // rmp = 10;
+    printf("Hp=%d\n", rhp);
+    printf("Mp=%d\n", rmp);
+}
+
 int main()
 {
     int val = 0;
@@ -37,6 +46,10 @@ int main()
       Init(hp, mp);
       printf("HP =%d\n", hp);
       printf("MP =%d\n", mp);
+
+      //参照渡しの注意
+      //実態のある変数しか渡せない
+   //   Init(50, 10);
   
       return 0;
 }
